@@ -27,7 +27,7 @@ def get_default_dir():
     if platform.system() == 'Windows':
         d = r"C:\Users\Noah\OneDrive - Strategy Communications\Desktop\maritime_radar_sim"
     else:
-        d = os.path.expanduser("~/maritime_radar_sim")
+        d = os.path.expanduser("~/projects/radar-research/Radar Simulator CSV Outputs")
     return d if os.path.isdir(d) else os.path.expanduser("~")
 
 
